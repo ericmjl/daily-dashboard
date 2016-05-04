@@ -135,14 +135,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "dashboard.py",
-			"settings":
-			{
-				"buffer_size": 186,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -151,13 +143,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 69.0,
-		"last_filter": "jinja",
+		"height": 49.0,
+		"last_filter": "json",
 		"selected_items":
 		[
 			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
 				"jinja",
 				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"word w",
+				"Word Wrap: Toggle"
 			],
 			[
 				"html",
@@ -182,10 +190,6 @@
 			[
 				"jinj",
 				"Set Syntax: HTML (Jinja2)"
-			],
-			[
-				"python",
-				"Set Syntax: Python"
 			],
 			[
 				"markdown",
@@ -300,10 +304,6 @@
 				"Permute Lines: Shuffle"
 			],
 			[
-				"text",
-				"Set Syntax: Plain Text"
-			],
-			[
 				"academi",
 				"Set Syntax: AcademicMarkdown"
 			],
@@ -368,7 +368,7 @@
 				"Preferences: MarkdownEditing Settings – Default"
 			]
 		],
-		"width": 449.0
+		"width": 364.0
 	},
 	"console":
 	{
@@ -389,8 +389,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/ericmjl/Documents/github/daily-dashboard"
+	],
 	"file_history":
 	[
+		"/Users/ericmjl/Documents/github/daily-dashboard/dashboard.py",
+		"/Users/ericmjl/.daily-dashboard",
+		"/Users/ericmjl/Documents/github/daily-dashboard/README.md",
+		"/private/var/folders/7b/fw10n6f17tb3zbhxd82pl51r0000gn/T/com.soulmen.ulysses3/QuickExport/NIH R21/index.html",
+		"/Users/ericmjl/Documents/github/daily-dashboard/templates/index.html",
+		"/Users/ericmjl/configurations.json",
 		"/Users/ericmjl/Desktop/daily-dashboard/app.py",
 		"/Users/ericmjl/Documents/github/graph-fingerprint/graphfingerprint/convnet.py",
 		"/private/var/folders/7b/fw10n6f17tb3zbhxd82pl51r0000gn/T/com.soulmen.ulysses3/QuickExport/Webinar/index.html",
@@ -512,17 +522,11 @@
 		"/Users/ericmjl/Documents/github/hiv-resistance-prediction/isoelectric_point.py",
 		"/Users/ericmjl/Downloads/pybluez/setup.py",
 		"/etc/sudoers",
-		"/Users/ericmjl/Dropbox (Personal)/Downloads/lightblue-0.4/setup.py",
-		"/Users/ericmjl/Documents/github/systems-microbiology-hiv/environment.yml",
-		"/private/var/folders/7b/fw10n6f17tb3zbhxd82pl51r0000gn/T/com.soulmen.ulysses3/QuickExport/Reticulate Evolution and Microbial Ecology.md",
-		"/Users/ericmjl/Documents/github/microblog/app/views.py",
-		"/Users/ericmjl/Documents/github/systems-microbiology-hiv/README.md",
-		"/Users/ericmjl/Documents/github/hiveplot/README.md",
-		"/Users/ericmjl/Documents/github/systems-microbiology-hiv/.gitignore"
+		"/Users/ericmjl/Dropbox (Personal)/Downloads/lightblue-0.4/setup.py"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -536,6 +540,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"他",
+			"geocoder",
 			"dashboard",
 			"eid=id",
 			"=id",
@@ -661,9 +667,7 @@
 			"taxa ",
 			"pin_graph",
 			"* ",
-			"window",
-			"text",
-			"Text"
+			"window"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -702,51 +706,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "dashboard.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 186,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								186,
-								186
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "python"
-							},
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -791,7 +758,7 @@
 	"project": "daily-dashboard.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -844,8 +811,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 179.0,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
